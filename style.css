@@ -1,1 +1,83 @@
 /* Aquí va el CSS */
+body{
+    background-image: url("/img/stacked-peaks-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    animation: rotate 9s infinite alternate linear;
+}
+#bulbasaur{
+    display: inline-block;
+    border: solid rgb(79, 182, 70);
+    border-width: 10px;
+    border-radius: 10px;
+    background: linear-gradient( rgb(58, 252, 113), rgb(158, 255, 105)); 
+    padding-bottom: 50px;
+    margin: 20px;
+}
+#charmander{
+    display: inline-block;
+    border: solid rgb(255, 160, 133);
+    border-width: 10px;
+    border-radius: 10px;
+    background: linear-gradient( rgb(232, 95, 95), rgb(255, 164, 98));
+    padding-bottom: 50px;
+    margin: 20px;
+}
+#squirtle{
+    display: inline-block;
+    border: solid rgb(165, 186, 255);
+    border-width: 10px;
+    border-radius: 10px;
+    background: linear-gradient( rgb(0, 167, 251), rgb(117, 124, 205));
+    padding-bottom: 50px;
+    margin: 20px;
+}
+#pikachu{
+    display: inline-block;
+    border: solid rgb(255, 241, 112);
+    border-width: 10px;
+    border-radius: 10px;
+    background: linear-gradient( rgb(251, 243, 0), rgb(248, 196, 119));
+    padding-bottom: 50px;
+    margin: 20px;
+}
+.nombre{
+    margin: 20px;
+    margin-top: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.tipo{
+    text-align:right;
+    margin-top: -40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+img{
+    border: solid rgb(76, 66, 29);
+    border-width: 2px;
+    border-radius: 3px;
+    width: 270px;
+    height: 250px;
+    margin: 20px;
+    margin-top: -1px;
+    background-image: url(/img/pokemon-background.png);
+}
+.habilidades{
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px ;
+}
+.habilidades li{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    font-size: 18px;
+    font-weight:400;
+}
+@keyframes rotate{
+    100%{
+        background-position: 10% 50%;
+    }
+}
