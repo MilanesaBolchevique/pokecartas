@@ -8,7 +8,7 @@ body{
 }
 #bulbasaur{
     display: inline-block;
-    border: solid rgb(79, 182, 70);
+    border: solid rgb(75, 172, 66);
     border-width: 10px;
     border-radius: 10px;
     background: linear-gradient( rgb(58, 252, 113), rgb(158, 255, 105)); 
@@ -50,7 +50,7 @@ body{
 }
 .tipo{
     text-align:right;
-    margin-top: -40px;
+    margin-top: -42px;
     font-size: 16px;
     font-weight: 600;
 }
