@@ -1,6 +1,6 @@
 /* Aquí va el CSS */
 body{
-    background-image: url("/img/stacked-peaks-haikei.svg");
+    background-image: url("./img/stacked-peaks-haikei.svg");
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -62,7 +62,7 @@ img{
     height: 250px;
     margin: 20px;
     margin-top: -1px;
-    background-image: url(/img/pokemon-background.png);
+    background-image: url(./img/pokemon-background.png);
 }
 .habilidades{
     margin: 20px;
